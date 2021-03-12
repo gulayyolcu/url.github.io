@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;;
+
+}
+
+
+:root {
+  --cyan: hsl(180, 66%, 49%);
+  --darkViolet: hsl(257, 27%, 26%);
+  --red:hsl(0, 87%, 67%);
+  --gray:hsl(0, 0%, 75%);
+  --grayViolet:hsla(257, 7%, 63%,0.35);
+  --darkBlue:hsl(255, 11%, 22%);
+  --verydarkViolet:hsl(260, 8%, 14%);
+}
+
+@media screen and (min-width: 1024px) {
+  .urlBackground{
+    background-image: url('./components/images/bg-shorten-desktop.svg');
+    background-color: var(--darkViolet);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 1023px){
+  .urlBackground{
+    background-image: url('./components/images/bg-shorten-mobile.svg');
+    background-color: var(--darkViolet);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:right -95px top -50px;
+  }
+}
+
+
+@media screen and (min-width: 1024px) {
+  .boost{
+    background-image: url('./components/images/bg-boost-desktop.svg');
+    background-color: var(--darkViolet);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 1023px){
+  .boost{
+    background-image: url('./components/images/bg-boost-mobile.svg');
+    background-color: var(--darkViolet);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:right top;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .line1{
+    position:relative;
+    z-index:1;
+  }
+  .line11{
+    position:absolute;
+    top:100px;
+    left:50.5%;
+    width:10px;
+    height:550px;
+    z-index:3;
+    background-color: var(--cyan);
+  }
+
+  .line22{
+  
+    z-index:2
+  }
+
+  .line111{
+    z-index:10;
+   
+  }
+
+  .line112{
+    z-index:10;
+    
+  }
+  
+  .line113{
+    z-index:10;
+  
+  }
+
+}
+
+@media screen and (min-width: 1024px){
+  .line1{
+    position:relative;
+    z-index:1;
+  }
+  .line22{
+   
+    z-index:2
+  }
+
+  .line11{
+    position:absolute;
+    top:40%;
+    left:20%;
+    width:700px;
+    height:10px;
+    z-index:3;
+    background-color: var(--cyan);
+  }
+
+  .line111{
+    z-index:10;
+
+  }
+
+  .line112{
+    z-index:10;
+
+  }
+  
+  .line113{
+  
+    z-index:10;
+  }
+
+}
